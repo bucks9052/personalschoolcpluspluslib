@@ -1,7 +1,7 @@
 /*
 Oliver Moore
 Personal c++ school lib
-Version 1.3
+Version 1.4
 */
 
 
