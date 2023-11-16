@@ -43,7 +43,7 @@ int validateInt(string prompt) {
 	int num = 0;
 	cout << endl << prompt;
 	while ((!(cin >> num)) || cin.fail()) {
-		cout << "ERROR TRY AGAIN: "
+		cout << "ERROR TRY AGAIN: ";
 		cin.ignore();
 		cin.sync();
 		cin.clear();
@@ -54,7 +54,7 @@ float validateFloat(string prompt) {
 	int float = 0;
 	cout << endl << prompt;
 	while ((!(cin >> num)) || cin.fail()) {
-		cout << "ERROR TRY AGAIN: "
+		cout << "ERROR TRY AGAIN: ";
 			cin.ignore();
 		cin.sync();
 		cin.clear();
@@ -76,7 +76,7 @@ double validateDouble(string &prompt) {
 	double num = 0;
 	cout << endl << prompt;
 	while ((!(cin >> num)) || cin.fail()) {
-		cout << "ERROR TRY AGAIN: "
+		cout << "ERROR TRY AGAIN: ";
 			cin.ignore();
 		cin.sync();
 		cin.clear();
@@ -100,7 +100,7 @@ char runAgain() {
 	cin >> again;
 	again = tolower(again);
 	while (again != 'y' && again != 'n') {
-		cout << endl << "ERROR: incorrect input please enter (y/n): "
+		cout << endl << "ERROR: incorrect input please enter (y/n): ";
 			cin.ignore();
 		cin.sync();
 		cin.clear();
@@ -115,7 +115,7 @@ char runAgainB() {
 	cin >> again;
 	again = tolower(again);
 	while (again != 'y' && again != 'n') {
-		cout << endl << "ERROR: incorrect input please enter (y/n): "
+		cout << endl << "ERROR: incorrect input please enter (y/n): ";
 			cin.ignore();
 		cin.sync();
 		cin.clear();
