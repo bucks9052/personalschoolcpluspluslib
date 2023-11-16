@@ -12,8 +12,8 @@ Version 1.4
 #include <string>
 #include <random>
 #include <cmath>
-#include <fstream>				//file IO
-#include <Windows.h>			//sleep command
+#include <fstream>				
+#include <Windows.h>			
 using namespace std;
 
 int endProgram() {
